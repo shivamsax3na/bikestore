@@ -1,0 +1,387 @@
+@font-face
+{
+	font-family:'racing one' ;
+	src:url('RacingSansOne-Regular.ttf');
+}
+
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	width: 100%
+	padding: 0;
+	margin:0;
+	background: #fff;
+	color: 3f3f3f;
+	font:14px/25px arial; 
+}
+
+header 
+{
+	background: #fff;
+}
+
+header .logo img 
+{
+	display: inline-block;
+	margin: 0px auto;
+	padding: 10px;
+	max-width: 210px
+}
+
+.menu
+{
+	display: inline-block;
+	float: right;
+}
+
+ul,ol
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu li
+{
+	float: left;
+}
+
+.menu li a 
+{
+	padding:27px 17px;
+	letter-spacing:2px;
+	letter-spacing:2px;
+	text-decoration:none;
+	color: #333;
+	font-weight:500px:
+	border:0;
+	text-transform:uppercase;
+	line-height:1;
+	display:block;
+	position:relative;
+	box-sizing:border-box;
+}
+
+.menu ul li:hover a
+{
+	background: #f3542d;
+	color: #fff;
+}
+
+.slider
+{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	height: 600px;
+
+}
+
+.slider img
+{
+	display: block;
+	position: relative;
+	z-index: 1;
+	max-height: 600px;
+	width: 100%;
+
+}
+
+.caption
+{
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+	padding: 20px 20px 20px;
+	text-align: center;
+	margin: 0;
+	max-width: none;
+	letter-spacing: 3px;
+}
+
+.caption h1 
+{
+	font-size: 20px; 
+	margin-bottom : 20px ;
+}
+
+.caption span{ font-size: 22px; }
+
+.content-box{font-size: 30px;}
+
+.content-box{
+	margin-bottom: 30px;
+}
+
+.content-box .box-1
+{
+	min-height: 380px;
+	padding-bottom: 30px; 
+}
+
+.header
+{
+	text-align:center;
+	margin: 60px auto 50PX;  
+}
+
+.heading
+{
+	background: #000;
+	border-right: 6px solid #f3542d;
+	color: #fff;
+	height: 60px;
+	display: inline-block;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 42px;
+	padding: 10px 20px;
+	position: relative;
+	transform: rotate(0deg) scale(1.0) skew(-14deg) translate(0px);
+	transform-style: flat;
+	text-transform: uppercase;
+}
+
+.heading span
+{
+
+	display: block;
+	transform: rotate(0deg) scale(1.0) skew(14deg) translate(0px);
+	transform-style: flat;
+}
+
+.content-box .item
+{
+	padding: 10px 0;
+
+}
+
+.zoom
+{
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	width:100% !important;
+}
+
+
+.content-box .item img
+{
+
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: all 0.5s ease;
+
+}
+
+
+.content-box .item .item-content
+{
+	background: #fff;
+	padding: 25px;
+	border:1px solid #ddd;
+
+}
+
+.content-box .item span
+{
+	font-size: 25px;
+	font-weight: 500px;
+	color: #000;
+
+}
+
+.content-box .item:hover .zoom img
+{
+	transform:scale(1.25) rotate(5deg);
+}
+
+.content-box .item:hover .item-content{
+	background: #f3542d ;
+	color: #fff;
+	transition: all 600ms ease;
+	border: 1px solid #f26324;
+
+}
+
+.content-box .item:hover .item-content p, span
+{
+	color: #fff;
+}
+
+.content-box .item:hover a.btn{border-color: #fff; color: #fff;}
+
+
+
+.content-box.box-2{
+	background:url("../images/bg-2.jpg") fixed 0 0 ;
+	padding:40px 0;
+	text-align: center;
+	min-height: 380px;
+
+}
+
+.content-box.box-2 p{
+color: #fff !important ;
+font-size: 25px;
+}
+
+.content-box.box-2 p{color: #fff}
+
+
+.content-box.box-3 .post {
+	background: #f1f1f1;
+	color: #3f3f3f;
+	margin-bottom: 30px;
+	border:1px solid #fff;
+}
+
+.content-box.box-3 .post img{
+	max-height: 440px;
+	width: 100%;
+	border: none;
+}
+
+.content-box.box-3 .post .wraper
+{
+	letter-spacing: 1px;
+	font-size: 16px;
+	padding: 60px 60px 20px 60px;
+	text-align: center;
+}
+
+
+.content-box.box-4
+{
+	background: url("../images/bg-3.jpg") fixed 0 0;
+	min-height: 380px;
+	padding: 40px 0;
+	text-align: center;
+
+}
+
+
+.content-box.box-5 .item
+{
+	border-right: 1px solid #ccc;
+	padding-right: 30px;
+	min-height: 380px; 
+}
+
+
+.link
+{
+	margin-bottom: 25px;
+	text-align: center;
+
+}
+
+.link li{margin-bottom: 5px;}
+.link li a {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 1px; 
+	font-size:12px;
+}
+
+
+
+.link li a:hover {
+	color: #f26324;
+}
+
+
+
+.link li a:before {
+	content: " ";
+	margin-right: 13px;
+	display: inline-block;
+	width: 5px;
+	height: 5px;	
+	margin-bottom: 2px;
+	background:#333;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********/
+
+a{color: #ff970b; text-decoration: none;vertical-align: top;}
+a:hover{text-decoration: underline;}
+
+.fright{float: right !important;}
+
+
+
+.btn{
+	border:3px solid #d3583e;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 14px;
+	font-family: 'racing one' 
+	line-height: 1.4 ;
+	margin :0;
+	padding: 6px 12px;
+	text-align: center;
+	transform: rotate(0deg) scale(1.0) skew(-14deg) translate(0px);
+	transform-style: flat;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+img,div,span{vertical-align: top; letter-spacing: 2px;}
+
+p{color: #777; margin:10px 0; }
+
+h1,h2,h3,h4,h5,h6{margin: 0; padding: 0;}
+
+h1,h2{font-size: 25px;line-height: 25px;}
+h3,h4{font-size: 20px;line-height: 20px;}
+h5,h6{font-size: 16px;line-height: 16px;}
+
+
+.post:after, .post:before, section:after, section:before{
+
+	content: " ";
+	display: block;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+	visibility: hidden;
+	clear: both;
+
+}
+
+
+
+
+
+
+
